@@ -1,0 +1,15 @@
+.btnPrevNext {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background 0.3s;
+  margin: 0 10px;
+  background-color: lightseagreen;
+  border-radius: 30px;
+  color: #374551;
+  width: 50px;
+}
+
+

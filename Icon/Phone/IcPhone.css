@@ -1,0 +1,14 @@
+.Fa-Phone {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: lightseagreen;
+  border-radius: 30px;
+  color: #374551;
+  padding: 12px;
+}
+
+.Fa-Phone:hover {
+  color: white;
+  background-color: #374551;
+  transition: all 0.7s ease;
+}

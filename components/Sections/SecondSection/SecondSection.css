@@ -1,0 +1,29 @@
+
+
+
+.direction-main-blocks {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.icon {
+  font-size: 140px;
+}
+
+.direction-blocks {
+  text-align: center;
+  margin: 10px;
+  padding: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: lightseagreen;
+  flex: 1 1 0;
+  /* background-color: rgba(255, 204, 0, 0.5); */
+}
+
+.direction-blocks:hover {
+  background-color: #374551;
+  transition: all 0.7s ease;
+  color: lightseagreen;
+}

@@ -1,0 +1,19 @@
+.onc{
+  text-align: center;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: lightseagreen;
+  flex: 1 1 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.onc:hover{
+  transition: all 0.7s ease;
+  color: lightseagreen;
+  background-color: #374551;
+}

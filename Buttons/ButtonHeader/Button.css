@@ -1,0 +1,17 @@
+.Button {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #374551;
+  color: rgba(255, 255, 255, 0.681);
+  border: 1px solid transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 14px 30px 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Button:hover {
+  background-color: lightseagreen;
+  transition: all 0.7s ease;
+  color: #374551;
+}

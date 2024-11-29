@@ -1,0 +1,24 @@
+.Ic-Search {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: lightseagreen;
+  border-radius: 30px;
+  color: #374551;
+  padding: 12px;
+  
+}
+
+.Ic-Search:hover {
+  color: white;
+  background-color: #374551;
+  transition: all 0.7s ease;
+}
+
+.input-search {
+  border: 1px solid lightseagreen;
+  border-radius: 30px;
+  width: 500px;
+  background-color: transparent;
+  color: #374551;
+  
+}

@@ -1,0 +1,31 @@
+.blockInputS {
+  border: 1px solid lightseagreen;
+  border-radius: 30px;
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+  color: #0586f8;
+  padding: 10px;
+  padding-left: 15px;
+  margin-right: 50px;
+}
+
+.blockContent{
+  text-align: center;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: lightseagreen;
+  flex: 1 1 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.blockContent:hover{
+  transition: all 0.7s ease;
+  color: lightseagreen;
+  background-color: #374551;
+}

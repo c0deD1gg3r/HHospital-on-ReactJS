@@ -1,0 +1,22 @@
+
+
+.block-main {
+  margin-top: 100px;
+}
+
+.block-content {
+  text-align: center;
+  padding: 30px;
+}
+
+.block-input {
+  border: 1px solid lightseagreen;
+  border-radius: 30px;
+  height: 30px;
+  width: 300px;
+  background-color: transparent;
+  color: #0586f8;
+  padding: 10px;
+  padding-left: 15px;
+}
+
