@@ -1,12 +1,15 @@
 import './Heart.css';
 import { BsPersonHearts } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Heart = () => {
   return (
     <>
-      <BsPersonHearts
-        className='Heart'
-      />
+      <Link to='/'>
+        <BsPersonHearts
+          className='Heart'
+        />
+      </Link>
     </>
   );
 };
