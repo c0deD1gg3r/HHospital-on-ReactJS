@@ -1,5 +1,5 @@
 import './About.css';
-import Logo from '../../../src/img/Logo';
+import Logo from '../../../src/img/Logo.png';
 const About = () => {
   return (
     <div>
