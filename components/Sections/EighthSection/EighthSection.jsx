@@ -42,6 +42,7 @@ const EighthSection = () => {
           ))}
         </div>
       </div>
+      <hr className='hr-main' />
     </div>
   );
 };
