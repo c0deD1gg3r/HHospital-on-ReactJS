@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { doctors } from '../../../src/Constants';
 import './FifthSection.css';
 import Button from '../../../Buttons/ButtonHeader/Button';
@@ -24,7 +24,6 @@ const styleImg = {
 const mainBlock = {
   display: 'flex',
   textAlign: 'center',
-
 };
 
 const btnCard = {
@@ -49,16 +48,29 @@ const btnPrevNext = {
 const FifthSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsToShow = 3;
+  const [fadeClass, setFadeClass] = useState('');
 
   const next = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % doctors.length);
+    setFadeClass('fade-out');
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % doctors.length);
+      setFadeClass('fade-in');
+    }, 500); // Длительность анимации
   };
 
   const previous = () => {
-    setCurrentIndex((prevIndex) =>
-      (prevIndex - 1 + doctors.length) % doctors.length
-    );
+    setFadeClass('fade-out');
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
+        (prevIndex - 1 + doctors.length) % doctors.length
+      );
+      setFadeClass('fade-in');
+    }, 500); // Длительность анимации
   };
+
+  useEffect(() => {
+    setFadeClass('fade-in');
+  }, [currentIndex]);
 
   return (
     <div style={{ marginTop: '100px' }}>
@@ -70,6 +82,7 @@ const FifthSection = () => {
             <div
               key={doctorIndex}
               style={styleContentBlock}
+              className={fadeClass}
             >
               <img src={doctors[doctorIndex].img} style={styleImg} />
               <h1>{doctors[doctorIndex].title}</h1>
