@@ -8,3 +8,14 @@
   /* background-color: rgb(205,206,213); */
 }
 
+
+@media (max-width: 768px) {
+  .name-hospital h1 {
+    font-size: 10px;
+  } 
+}
+
+
+p, h1, h2, h3, span {
+  color: rgba(245, 245, 245, 0.772);
+}

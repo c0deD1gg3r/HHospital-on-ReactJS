@@ -6,7 +6,7 @@ const FourthSection = () => {
   return (
     <div style={{ marginTop: '100px' }}>
       <h1 style={{ textAlign: 'center' }}>9 причин обратиться в клинику HHospital</h1>
-      <p style={{ textAlign: 'center', fontSize: '18px', lineHeight: '2.4rem', color: 'rgba(245, 245, 245, 0.772)' }}>
+      <p style={{ textAlign: 'center', fontSize: '18px', lineHeight: '2.4rem' }}>
         Мы ориентируемся на высочайшие мировые стандарты оказания медицинской помощи. Клиника <br />
         HHospital — это место, где к каждому пациенту относятся максимально заботливо и внимательно,<br />
         применяют новейшие технологии и лекарственные препараты. Поэтому многие обращаются к нам<br />

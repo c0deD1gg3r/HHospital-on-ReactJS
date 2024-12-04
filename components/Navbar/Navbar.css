@@ -1,4 +1,3 @@
-
 .div-heart {
   display: inline-block;
   margin-left: 40px;
@@ -6,27 +5,30 @@
 
 .nav {
   display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px; 
 }
 
 .container {
-
+  position: relative; 
 }
 
+.btnOpen {
+  display: none; 
+  font-size: 30px;
+  cursor: pointer;
+}
 
 .nav-list {
-  display: inline-flex;
-  justify-content: space-between;
-  margin-left: 100px;
+  display: flex; 
+  justify-content: flex-end; 
+  margin: 0;
   padding: 0;
-  margin-top: 100px;
 }
 
 .nav-list li {
-  margin-right: 100px;
-}
-
-.nav-list-item {
-
+  margin-right: 40px; 
 }
 
 .nav-link {
@@ -43,4 +45,37 @@
 
 ul, ul li {
   list-style-type: none;
+}
+
+@media (max-width: 860px) {
+  .btnOpen {
+    display: block;
+    background-color: lightseagreen;
+    color: #374545;
+    border: none;
+    font-size: 60px;
+    border-radius: 15px; 
+  }
+
+  .nav-list {
+    display: none; 
+    flex-direction: column; 
+    margin-left: -160px;
+    margin-top: -80px;
+    background-color: transparent;
+    width: 130px; 
+    padding: 10px 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
+    z-index: 1000;
+    border-radius: 15px;
+  }
+
+  .nav-list.active {
+    display: flex; 
+  }
+
+  .nav-list li {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
 }

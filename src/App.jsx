@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 import Navbar from '../components/Navbar/Navbar';
 import MainPage from '../components/Pages/MainPage/MainPage';
 import About from '../components/Pages/About/About';
+import Footer from '../components/Footer/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<MainPage />} />
         </Routes>
 
+        <Footer />
       </BrowserRouter>
     </>
   );

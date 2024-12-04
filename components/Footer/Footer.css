@@ -1,11 +1,10 @@
-.hr-about {
+.hr-footer {
   border: none; 
-  height: 2px; 
+  height: 3.5px; 
   background-color: rgba(192, 191, 191, 0.306); 
   width: 100vw; 
   position: relative; 
   left: 50%; 
   margin-left: -50vw; 
   margin-top: 20px; 
-  margin-bottom: 20px; 
 }

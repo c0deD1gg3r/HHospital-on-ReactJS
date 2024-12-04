@@ -1,16 +1,28 @@
 
+import { useState } from 'react';
 import Heart from '../../Icon/Heart/Heart';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+
+  const Open = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className='nav'>
       <div className='div-heart'>
         <Heart />
       </div>
       <div className='container'>
-        <ul className='nav-list'>
+        <button className={`btnOpen ${isOpen ? 'nonActive' : ''}`} onClick={Open}>
+          &#9776;
+        </button>
+
+        <ul className={`nav-list ${isOpen ? 'active' : ''}`}>
           <li className='nav-list-item'>
             <NavLink to='/DIRECTIONS' className='nav-link'>
               НАПРАВЛЕНИЯ
