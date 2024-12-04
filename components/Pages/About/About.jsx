@@ -60,7 +60,6 @@ const About = () => {
             );
           })}
         </div>
-        <hr className='hr-about' />
       </div>
     </>
   );

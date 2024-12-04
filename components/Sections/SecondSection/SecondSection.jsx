@@ -1,8 +1,13 @@
 import { directions } from '../../../src/Constants';
 import './SecondSection.css';
-
+import { Link } from 'react-router-dom';
 
 const SecondSection = () => {
+
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div style={{ marginTop: '100px', textAlign: 'center' }}>
@@ -12,10 +17,14 @@ const SecondSection = () => {
         {directions.map((direction) => {
           const Icon = direction.icon;
           return (
-            <div key={direction.id} className='direction-blocks'>
+            <Link
+              to={direction.link}
+              key={direction.id}
+              className='direction-blocks'
+            >
               <Icon className='icon' /> <br />
               <span style={{ fontSize: '17px' }}>{direction.text}</span>
-            </div>
+            </Link>
           );
         })}
       </div>
