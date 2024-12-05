@@ -30,6 +30,12 @@ import { FaBath } from "react-icons/fa";
 import { MdAddIcCall } from "react-icons/md";
 import { MdNoFood } from "react-icons/md";
 
+import { GiTumor } from "react-icons/gi";
+import { RiSurgicalMaskLine } from "react-icons/ri";
+import { GiBreastplate } from "react-icons/gi";
+import { MdOutlineVideogameAsset } from "react-icons/md";
+import { GiLiver } from "react-icons/gi";
+
 export const directions = [
 
   {
@@ -409,4 +415,42 @@ export const Oncology = [
     text: 'ХИМИОТЕРАПИЯ',
   },
 
+];
+
+export const OncologyList = [
+  {
+    id: 0,
+    icon: GiTumor,
+    title: 'Онкохирургия',
+  },
+
+  {
+    id: 1,
+    icon: GiKidneys,
+    title: 'Оперативная урология',
+  },
+
+  {
+    id: 2,
+    icon: RiSurgicalMaskLine,
+    title: 'Интервенционная хирургия',
+  },
+
+  {
+    id: 3,
+    icon: GiBreastplate,
+    title: 'Торакальная хирургия',
+  },
+
+  {
+    id: 4,
+    icon: MdOutlineVideogameAsset,
+    title: 'Эндоскопическая хирургия',
+  },
+
+  {
+    id: 5,
+    icon: GiLiver,
+    title: 'Биопсия печени',
+  },
 ];
