@@ -2,3 +2,51 @@
   font-size: 20px;
   padding-bottom: 30px;
 }
+
+.Oncology-main-div {
+  display: flex;
+  flex: 1 1 0;
+  margin: 0px 0px 15px 0px;
+}
+
+.Oncology-icon-div {
+  background-color: lightseagreen;
+  padding: 30px;
+  border-radius: 10px 0 0 10px;
+}
+
+.Oncology-text-div {
+  text-align: center;
+  display: flex;                
+  align-items: center;
+  justify-content: flex-start;                
+  color: rgba(255, 255, 255, 0.681);
+  background-color: #374551;
+  font-size: 18px; 
+  padding: 0px 70px 0px 80px;
+  width: 250px;
+  border-radius: 0 10px 10px 0px;
+}
+
+.Oncology-content-div {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background-color: lightseagreen;
+  border-radius: 15px;
+}
+
+
+.Oncology-text-div:hover {
+  color: lightseagreen;
+  transition: all 0.7s ease;
+
+}
+
+.Oncology-content-div:hover {
+  transition: all 0.7s ease;
+  color: #374551;
+  background-color: #374551;
+  cursor: pointer;
+  box-shadow: 5px 3px 0px rgba(0, 0, 0, 0.3);
+}

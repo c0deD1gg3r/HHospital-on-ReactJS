@@ -45,34 +45,24 @@ const Oncology = () => {
           let Icon = OncologyLists.icon;
 
           return (
-            <div key={OncologyLists.id} style={{
-              display: 'flex',
-              flex: '1 1 0',
-              margin: '0px 0px 15px 0px',
-            }}>
-              <div key={OncologyLists.id} style={{
-                backgroundColor: 'lightseagreen',
-                margin: '0px 0px 15px 0px',
-                padding: '50px',
-              }}>
-                <Icon
-                  size={100}
-                />
-              </div>
+            <div
+              key={OncologyLists.id}
+              className='Oncology-main-div'
+            >
+              <div className='Oncology-content-div'>
+                <div
+                  className='Oncology-icon-div'
+                  key={OncologyLists.id}
+                >
+                  <Icon
+                    size={100}
+                  />
+                </div>
 
 
-              <div style={{
-                textAlign: 'center',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'flex-start',
-                backgroundColor: 'black',
-                fontSize: '20px',
-                padding: '0px 70px 0px 80px',
-                margin: '0px 0px 15px 0px',
-                width: '250px'
-              }}>
-                {OncologyLists.title}
+                <div className='Oncology-text-div'>
+                  {OncologyLists.title}
+                </div>
               </div>
             </div>
 
