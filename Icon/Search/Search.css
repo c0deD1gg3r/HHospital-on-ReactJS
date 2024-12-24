@@ -1,7 +1,7 @@
 .Ic-Search {
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
-  background-color: lightseagreen;
+  background-color: pink;
   border-radius: 30px;
   color: #374551;
   padding: 12px;
@@ -15,7 +15,7 @@
 }
 
 .input-search {
-  border: 1px solid lightseagreen;
+  border: 1px solid pink;
   border-radius: 30px;
   width: 500px;
   background-color: transparent;

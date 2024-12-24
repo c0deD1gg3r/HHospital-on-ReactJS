@@ -1,8 +1,9 @@
 
 import { useState } from 'react';
-import Heart from '../../Icon/Heart/Heart';
+// import Heart from '../../Icon/Heart/Heart';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
+import Logo from '../../src/img/Logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,13 @@ const Navbar = () => {
   return (
     <nav className='nav'>
       <div className='div-heart'>
-        <Heart />
+        {/* <Heart /> */}
+        <NavLink to='/'>
+          <img
+            src={Logo}
+            alt={Logo}
+          />
+        </NavLink>
       </div>
       <div className='container'>
         <button className={`btnOpen ${isOpen ? 'nonActive' : ''}`} onClick={Open}>

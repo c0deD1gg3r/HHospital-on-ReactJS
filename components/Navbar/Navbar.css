@@ -3,6 +3,13 @@
   margin-left: 40px;
 }
 
+.div-heart img {
+  width: 120%;
+  height: 6rem;
+  cursor: pointer;
+  margin-left: -20px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between; 
@@ -29,17 +36,19 @@
 
 .nav-list li {
   margin-right: 40px; 
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .nav-link {
   text-decoration: none;
-  color: lightseagreen;
+  color: #374545;
   border-radius: 3px;
   cursor: pointer;
 }
 
 .nav-link:hover {
-  color: rgb(0, 255, 213);
+  color: pink;
   transition: all 0.7s ease;
 }
 
@@ -50,7 +59,7 @@ ul, ul li {
 @media (max-width: 860px) {
   .btnOpen {
     display: block;
-    background-color: lightseagreen;
+    background-color: pink;
     color: #374545;
     border: none;
     font-size: 60px;

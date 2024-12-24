@@ -5,13 +5,13 @@
   border: 1px solid transparent;
   border-radius: 30px;
   cursor: pointer;
-  padding: 14px 30px 15px;
-  font-size: 15px;
+  padding: 12px 20px 13px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 .Button:hover {
-  background-color: lightseagreen;
+  background-color: pink;
   transition: all 0.7s ease;
   color: #374551;
 }

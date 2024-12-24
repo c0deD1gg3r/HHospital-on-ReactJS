@@ -55,7 +55,7 @@ const FifthSection = () => {
     setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % doctors.length);
       setFadeClass('fade-in');
-    }, 500); // Длительность анимации
+    }, 500);
   };
 
   const previous = () => {
@@ -65,7 +65,7 @@ const FifthSection = () => {
         (prevIndex - 1 + doctors.length) % doctors.length
       );
       setFadeClass('fade-in');
-    }, 500); // Длительность анимации
+    }, 500);
   };
 
   useEffect(() => {

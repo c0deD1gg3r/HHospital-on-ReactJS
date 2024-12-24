@@ -1,11 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  background-color: #374545;
-  /* background-color: rgb(205,206,213); */
+  background-color: rgba(245, 245, 245, 0.96);
 }
 
 
@@ -17,5 +13,6 @@
 
 
 p, h1, h2, h3, span {
-  color: rgba(245, 245, 245, 0.772);
+  color: #374545;
+  font-weight: 700;
 }
