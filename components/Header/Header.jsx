@@ -15,7 +15,7 @@ const Header = () => {
             {/* <span>+ 7 ___ __-__ ___</span> */}
           </div>
           <div style={{ display: 'flex' }}>
-            {/* <Search /> */}
+            <Search />
             &nbsp;
             &nbsp;
             <Button />
