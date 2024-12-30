@@ -1,5 +1,4 @@
 
-
 .hr {
   border: none; 
   height: 2px; 
@@ -12,16 +11,53 @@
   margin-bottom: 20px; 
 }
 
-
+.btnOpen {
+  display: none;
+}
 
 header .all {
   justify-content: space-between;
-  height: 50px;
   display: flex;
   text-align: center;
 }
 
-.all {
-  padding: 0 40px;
-  box-sizing: border-box;
+.SB {
+  display: flex;
+}
+
+ .hLogo {
+  display: none;
+}
+
+@media (max-width: 968px) {
+  .btnOpen {
+    display: block;
+    color: #374545;
+    border: none;
+    font-size: 40px;
+    margin-top: -10px;
+  }
+  
+  .btnOpen.active {
+    color: lightblue;
+  }
+
+ .SearchH {
+    display: none;
+    overflow: hidden;
+  }
+  .SB {
+    display: none;
+  }
+
+  .hLogo{
+    display: flex;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .hLogo img{
+    width: 150px;
+    height: 75px;
+  }
 }

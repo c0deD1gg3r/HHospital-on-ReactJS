@@ -1,0 +1,11 @@
+/* Здесь будет прописана адаптивность */
+
+@media (max-width: 968px) {
+  .name-hospital h1 {
+    font-size: 16px;
+  } 
+
+  .carousel, carousel-image {
+    display: none;
+  }
+}

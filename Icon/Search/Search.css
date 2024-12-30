@@ -20,5 +20,10 @@
   width: 500px;
   background-color: transparent;
   color: #374551;
-  
+}
+
+@media (max-width: 968px) {
+  .Ic-Search {
+    display: none;
+  }
 }

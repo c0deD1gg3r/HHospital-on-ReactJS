@@ -4,10 +4,10 @@
 }
 
 .div-heart img {
-  width: 120%;
+  width: 130%;
   height: 6rem;
   cursor: pointer;
-  margin-left: -20px;
+  margin-left: -75px;
 }
 
 .nav {
@@ -19,12 +19,6 @@
 
 .container {
   position: relative; 
-}
-
-.btnOpen {
-  display: none; 
-  font-size: 30px;
-  cursor: pointer;
 }
 
 .nav-list {
@@ -56,35 +50,12 @@ ul, ul li {
   list-style-type: none;
 }
 
-@media (max-width: 860px) {
-  .btnOpen {
-    display: block;
-    background-color: pink;
-    color: #374545;
-    border: none;
-    font-size: 60px;
-    border-radius: 15px; 
+ @media (max-width: 968px) {
+  .Logo {
+    display: none;
   }
 
-  .nav-list {
-    display: none; 
-    flex-direction: column; 
-    margin-left: -160px;
-    margin-top: -80px;
-    background-color: transparent;
-    width: 130px; 
-    padding: 10px 10px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
-    z-index: 1000;
-    border-radius: 15px;
+  .nav-link {
+    display: none;
   }
-
-  .nav-list.active {
-    display: flex; 
-  }
-
-  .nav-list li {
-    margin-right: 0; 
-    margin-bottom: 10px; 
-  }
-}
+} 

@@ -15,3 +15,9 @@
   transition: all 0.7s ease;
   color: #374551;
 }
+
+@media (max-width: 968px) {
+  .Button {
+    display: none;
+  }
+}
