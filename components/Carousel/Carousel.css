@@ -7,9 +7,10 @@
 
 .carousel-image {
   border-radius: 30px;
-  width: 402px;
-  height: 500px;
+  width: 530px;
+  height: 400px;
   object-fit: cover;
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
 }
 
 .carousel-button {
@@ -20,7 +21,6 @@
   padding: 10px;
   transition: background 0.3s;
   margin: 0 10px;
-  background-color: lightseagreen;
   border-radius: 30px;
   color: #374551;
   width: 50px;
@@ -30,3 +30,25 @@
   background-color: #374551;
   color: white;
 }
+
+/* Animation for sliding */
+@keyframes slideRight {
+  0% {
+    transform: translateX(100%); /* Start off the screen to the right */
+  }
+  50% {
+    transform: translateX(0); /* Center image */
+  }
+}
+
+.slideRight {
+  animation: slideRight 0.5s forwards; /* Apply slideRight animation */
+}
+
+
+@media (max-width: 968px) {
+  .carousel {
+    display: none;
+  }
+}
+

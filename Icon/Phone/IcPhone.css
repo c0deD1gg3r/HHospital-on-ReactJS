@@ -12,3 +12,7 @@
   background-color: #374551;
   transition: all 0.7s ease;
 }
+
+@media (max-width: 968px) {
+  
+}

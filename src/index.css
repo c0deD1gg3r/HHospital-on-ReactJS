@@ -1,16 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   background-color: rgba(245, 245, 245, 0.96);
 }
-
-
-@media (max-width: 768px) {
-  .name-hospital h1 {
-    font-size: 10px;
-  } 
-}
-
 
 p, h1, h2, h3, span {
   color: #374545;
