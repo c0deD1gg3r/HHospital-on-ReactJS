@@ -1,4 +1,3 @@
-
 .hr {
   border: none; 
   height: 2px; 
@@ -25,39 +24,100 @@ header .all {
   display: flex;
 }
 
- .hLogo {
+.hLogo {
+  display: none;
+}
+
+.sidebar {
   display: none;
 }
 
 @media (max-width: 968px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 101px; 
+    left: -360px; 
+    width: 360px;
+    height: auto;
+    background-color: rgba(245, 245, 245, 0.96);
+    transition: left 0.4s ease; 
+    padding-top: 60px; 
+    z-index: 90; 
+  }
+
+  .sidebar.open {
+    left: 0; 
+  }
+
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin-top: -60px;
+  }
+  
+  .navList li {
+    padding: 15px 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(192, 191, 191, 0.3); 
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #374545;
+  }
+
+  /* .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -60px;
+  }
+
+  .sidebar li {
+    padding: 15px 15px; 
+    border-bottom: 1px solid rgba(192, 191, 191, 0.3); 
+  } */
+  
   .btnOpen {
     display: block;
     color: #374545;
     border: none;
     font-size: 40px;
     margin-top: -10px;
+    background-color: rgba(245, 245, 245, 0.96);
   }
   
   .btnOpen.active {
-    color: lightblue;
+    color: pink;
+    transition: all 0.5s ease;
   }
 
- .SearchH {
-    display: none;
-    overflow: hidden;
-  }
   .SB {
     display: none;
   }
 
-  .hLogo{
+  .hLogo {
     display: flex;
     text-align: center;
     margin-top: -20px;
   }
 
-  .hLogo img{
+  .hLogo img {
     width: 150px;
     height: 75px;
+  }
+
+  .blockInput {
+    text-align: center;
+  }
+
+  .inputSearch {
+    border: 1px solid pink;
+    border-radius: 30px;
+    width: 200px;
+    background-color: transparent;
+    color: #374551;
+    padding: 10px 15px;
   }
 }
