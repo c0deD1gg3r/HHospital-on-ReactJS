@@ -36,7 +36,7 @@ const EighthSection = () => {
 
         <div style={{ flexWrap: 'wrap', display: 'flex' }}>
           {Oncology.map((onc) => (
-            <div className='onc'>
+            <div key={onc.id} className='onc'>
               {onc.text}
             </div>
           ))}
