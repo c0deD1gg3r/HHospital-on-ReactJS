@@ -29,3 +29,9 @@
   color: lightseagreen;
   background-color: #374551;
 }
+
+@media (max-width: 968px) {
+  .sxMainBlock {
+    display: none;
+  }
+}

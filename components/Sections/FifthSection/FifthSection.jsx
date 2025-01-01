@@ -73,8 +73,8 @@ const FifthSection = () => {
   }, [currentIndex]);
 
   return (
-    <div style={{ marginTop: '100px' }}>
-      <div style={mainBlock}>
+    <div style={{ marginTop: '100px' }} className='mainDoctorDiv'>
+      <div className='mainBlock' style={mainBlock}>
         <button style={btnPrevNext} onClick={previous}>❮</button>
         {Array.from({ length: itemsToShow }).map((_, index) => {
           const doctorIndex = (currentIndex + index) % doctors.length;

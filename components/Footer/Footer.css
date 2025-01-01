@@ -8,3 +8,13 @@
   margin-left: -50vw; 
   margin-top: 20px; 
 }
+
+@media (max-width: 968px) {
+  .footerMainBlock img {
+    display: none;
+  }
+
+  .footerBtn {
+    display: none;
+  }
+}

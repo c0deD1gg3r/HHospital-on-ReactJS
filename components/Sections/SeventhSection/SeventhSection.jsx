@@ -10,7 +10,7 @@ const styleImg = {
 
 const SeventhSection = () => {
   return (
-    <div style={{ marginTop: '100px' }}>
+    <div style={{ marginTop: '100px' }} className='svMainBlock'>
       <h1 style={{ textAlign: 'center' }}>Лечение в стационаре</h1>
       <div style={{ display: 'flex', marginTop: '50px' }}>
         <div>
