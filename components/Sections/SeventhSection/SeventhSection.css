@@ -16,3 +16,9 @@
   background-color: lightseagreen;
   transition: all 0.7s ease;
 }
+
+@media (max-width: 968px) {
+  .svMainBlock {
+    display: none;
+  }
+}

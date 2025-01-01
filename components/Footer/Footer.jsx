@@ -14,10 +14,13 @@ const Footer = () => {
 
   return (
 
-    <div style={{
-      marginTop: '100px',
-      margin: '0px',
-    }}>
+    <div
+      style={{
+        marginTop: '100px',
+        margin: '0px',
+      }}
+      className='footerMainBlock'
+    >
       <hr className='hr-footer' />
       <div style={{
         display: 'flex',
@@ -39,7 +42,7 @@ const Footer = () => {
           <p>отправить нам документы</p>
         </div>
 
-        <div style={{ padding: '10px 10px' }}>
+        <div className='footerBtn' style={{ padding: '10px 10px' }}>
           <Button />
         </div>
       </div>

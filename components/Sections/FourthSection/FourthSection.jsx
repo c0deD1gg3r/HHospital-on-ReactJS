@@ -4,7 +4,7 @@ import './FourthSection.css';
 
 const FourthSection = () => {
   return (
-    <div style={{ marginTop: '100px' }}>
+    <div style={{ marginTop: '100px' }} className='ftMainBlock'>
       <h1 style={{ textAlign: 'center' }}>9 причин обратиться в клинику HHospital</h1>
       <p style={{ textAlign: 'center', fontSize: '18px', lineHeight: '2.4rem' }}>
         Мы ориентируемся на высочайшие мировые стандарты оказания медицинской помощи. Клиника <br />

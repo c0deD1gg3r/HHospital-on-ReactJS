@@ -22,7 +22,7 @@ const onctStyle = {
 
 const EighthSection = () => {
   return (
-    <div style={{ marginTop: '100px' }}>
+    <div style={{ marginTop: '100px' }} className='egMainBlock'>
       <h1 style={{ textAlign: 'center' }}>Отделение онкологии</h1>
 
       <div style={{ display: 'flex' }}>

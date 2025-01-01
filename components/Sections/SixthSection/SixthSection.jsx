@@ -27,7 +27,7 @@ const SixthSection = () => {
   };
 
   return (
-    <div style={{ marginTop: '100px' }}>
+    <div style={{ marginTop: '100px' }} className='sxMainBlock'>
       <h1 style={{ textAlign: 'center' }}>Консультации врачей и современные методы диагностики</h1>
       <div style={{ display: 'flex' }}>
         <div>

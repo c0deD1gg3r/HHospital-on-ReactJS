@@ -1,6 +1,5 @@
 import EighthSection from "../EighthSection/EighthSection";
 import FifthSection from "../FifthSection/FifthSection";
-import FirstSection from "../FirstSection/FirstSection";
 import FourthSection from "../FourthSection/FourthSection";
 import SecondSection from "../SecondSection/SecondSection";
 import SeventhSection from "../SeventhSection/SeventhSection";
