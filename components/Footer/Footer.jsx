@@ -22,11 +22,7 @@ const Footer = () => {
       className='footerMainBlock'
     >
       <hr className='hr-footer' />
-      <div style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        marginTop: '20px'
-      }}>
+      <div className='footerContent'>
         <Link to='/'>
           <img style={{
             width: '60%',
@@ -37,12 +33,12 @@ const Footer = () => {
           />
         </Link>
 
-        <div>
+        <div className='footerMail'>
           <h2>pp@healthospital@mail.ru</h2>
           <p>отправить нам документы</p>
         </div>
 
-        <div className='footerBtn' style={{ padding: '10px 10px' }}>
+        <div className='footerBtn' style={{ padding: '10px 10px', marginTop: '30px' }}>
           <Button />
         </div>
       </div>
