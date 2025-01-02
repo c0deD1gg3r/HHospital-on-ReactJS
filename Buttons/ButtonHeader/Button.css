@@ -17,7 +17,16 @@
 }
 
 @media (max-width: 968px) {
+  .Button:hover {
+    background-color: #374551;
+    color: rgba(255, 255, 255, 0.681);
+  }
+
+  .btnHeader {
+    text-align: center;
+  }
+
   .Button {
-    display: none;
+    margin-top: 20px;
   }
 }

@@ -3,7 +3,7 @@ import './Button.css';
 const Button = () => {
   return (
     <>
-      <div>
+      <div className='btnHeader'>
         <button className='Button'>ЗАПИСАТЬСЯ НА ПРИЁМ</button>
       </div>
     </>
