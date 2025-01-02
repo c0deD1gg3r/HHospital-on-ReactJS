@@ -14,5 +14,8 @@
 }
 
 @media (max-width: 968px) {
-  
+  .Fa-Phone:hover {
+    color: #374551;
+    background-color: pink;
+  }
 }
